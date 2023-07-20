@@ -2,10 +2,10 @@
 
 欢迎来到OceanXplorer项目！这是一个用于处理和分析海洋数据（近海岸带水体叶绿素浓度分析）的Python项目。该项目使用xarray库来处理NetCDF格式的海洋数据文件，并提供了一些功能来可视化和分析这些数据。
 
-## 安装要求
+## 安装要求(对着import下载即可)
 
 - Python 3.x
-- xarray
+- xarray(更换为netCDF4)
 - matplotlib
 
 可以使用以下命令安装所需的依赖项（e.g.）：
