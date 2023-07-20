@@ -2,13 +2,17 @@
 
 欢迎来到OceanXplorer项目！这是一个用于处理和分析海洋数据（近海岸带水体叶绿素浓度分析）的Python项目。该项目使用xarray库来处理NetCDF格式的海洋数据文件，并提供了一些功能来可视化和分析这些数据。
 
+## 前置介绍
+
+从数学上来说，netcdf(.nc)存储的数据就是一个多自变量的单值函数。用公式来说就是f(x,y,z,...)=value，函数的自变量x,y,z等在netcdf中叫做维(dimension)或坐标轴(axis)，函数值value在netcdf中叫做变量(Variables)。而自变量和函数值在物理学上的一些性质，比如计量单位(量纲)、物理学名称等等在netcdf中就叫属性(Attributes)。
+
 ## 安装要求
 
 - Python 3.x
 - xarray
 - matplotlib
 
-可以使用以下命令安装所需的依赖项：
+可以使用以下命令安装所需的依赖项(e.g.)：
 
 ```bash
 pip install xarray matplotlib
@@ -42,7 +46,7 @@ python main.py
 ## 文件结构
 
 ```
-海洋探索者/
+项目/
     ├── main.py       # 主程序
     ├── ocean_data.nc # 示例海洋数据文件
     ├── utils.py      # 工具函数
@@ -62,6 +66,6 @@ NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Proces
 
 欢迎贡献代码和提出问题！请提交问题和建议到项目的ISSUE。如果您希望贡献代码，请提交Pull请求。
 
-如果您对项目有任何疑问，请随时联系我们。
+如果您对项目有任何疑问，请随时联系我们(邮箱请自行搜索)。
 
 **感谢您的支持和参与！**

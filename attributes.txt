@@ -1,50 +1,9 @@
-title: MODISA Level-2 Data
-product_name: AQUA_MODIS.20230511T051001.L2.OC.NRT.nc
-processing_version: R2022.0
-equatorCrossingLongitude: -22.152212142944336
-orbit_number: 111842
-history: l2gen par=/data1/sdpsoper/vdc/vpu0/workbuf/A2023131051000.L1B_LAC.param metafile=AQUA_MODIS.20230511T051001.L2.OC.NRT.nc.meta
-instrument: MODIS
-platform: Aqua
-Conventions: CF-1.6 ACDD-1.3
-license: https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/
-naming_authority: gov.nasa.gsfc.sci.oceandata
-id: R2022.0/L2/AQUA_MODIS.20230511T051001.L2.OC.NRT.nc
-date_created: 2023-05-11T06:28:24.000Z
-keywords_vocabulary: NASA Global Change Master Directory (GCMD) Science Keywords
-keywords: Earth Science > Oceans > Ocean Optics > Ocean Color
-standard_name_vocabulary: CF Standard Name Table v36
-institution: NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Processing Group
-creator_name: NASA/GSFC/OBPG
-creator_email: data@oceancolor.gsfc.nasa.gov
-creator_url: https://oceandata.sci.gsfc.nasa.gov
-project: Ocean Biology Processing Group (NASA/GSFC/OBPG)
-publisher_name: NASA/GSFC/OBPG
-publisher_url: https://oceandata.sci.gsfc.nasa.gov
-publisher_email: data@oceancolor.gsfc.nasa.gov
-identifier_product_doi_authority: http://dx.doi.org
-identifier_product_doi: 10.5067/AQUA/MODIS/L2/OC/2022
-processing_level: L2
-cdm_data_type: swath
-equatorCrossingDateTime: 2023-05-11T04:40:42.371Z
-spatialResolution: 1 km
-time_coverage_start: 2023-05-11T05:10:01.673Z
-time_coverage_end: 2023-05-11T05:14:58.573Z
-start_center_longitude: 124.48876190185547
-start_center_latitude: 31.183542251586914
-end_center_longitude: 118.68980407714844
-end_center_latitude: 49.006202697753906
-northernmost_latitude: 50.23546600341797
-southernmost_latitude: 28.86601448059082
-easternmost_longitude: 136.66998291015625
-westernmost_longitude: 104.0028305053711
-geospatial_lat_units: degrees_north
-geospatial_lon_units: degrees_east
-geospatial_lat_max: 50.23546600341797
-geospatial_lat_min: 28.86601448059082
-geospatial_lon_max: 136.66998291015625
-geospatial_lon_min: 104.0028305053711
-startDirection: Ascending
-endDirection: Ascending
-day_night_flag: Day
-earth_sun_distance_correction: 0.9805544018745422
+comment: 2m air temperature over land blended with sea water temperature at a depth of 20cm expressed as monthly anomalies relative to 1961-1990 climatology.
+history: Data set built at: 2023-07-07T15:43:40+00:00
+institution: Met Office Hadley Centre / Climatic Research Unit, University of East Anglia
+licence: HadCRUT5 is licensed under the Open Government Licence v3.0 except where otherwise stated. To view this licence, visit https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3
+reference: C. P. Morice, J. J. Kennedy, N. A. Rayner, J. P. Winn, E. Hogan, R. E. Killick, R. J. H. Dunn, T. J. Osborn, P. D. Jones and I. R. Simpson (2021), An updated assessment of near-surface temperature change from 1850: the HadCRUT5 data set, Journal of Geophysical Research: Atmospheres, 126, e2019JD032361. https://doi.org/10.1029/2019JD032361
+source: CRUTEM.5.0.1.0 HadSST.4.0.0.0
+title: HadCRUT.5.0.1.0 blended land air temperature and sea-surface temperature anomaly data set
+version: HadCRUT.5.0.1.0
+Conventions: CF-1.7
