@@ -1,0 +1,18 @@
+<xarray.Dataset>
+Dimensions:  ()
+Data variables:
+    *empty*
+Attributes: (12/50)
+    title:                             MODISA Level-2 Data
+    product_name:                      AQUA_MODIS.20230511T051001.L2.OC.NRT.nc
+    processing_version:                R2022.0
+    equatorCrossingLongitude:          -22.152212
+    orbit_number:                      111842
+    history:                           l2gen par=/data1/sdpsoper/vdc/vpu0/wor...
+    ...                                ...
+    geospatial_lon_max:                136.66998
+    geospatial_lon_min:                104.00283
+    startDirection:                    Ascending
+    endDirection:                      Ascending
+    day_night_flag:                    Day
+    earth_sun_distance_correction:     0.9805544018745422
