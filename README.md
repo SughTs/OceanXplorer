@@ -8,7 +8,7 @@
 - xarray
 - matplotlib
 
-可以使用以下命令安装所需的依赖项：
+可以使用以下命令安装所需的依赖项（e.g.）：
 
 ```bash
 pip install xarray matplotlib
@@ -56,7 +56,8 @@ NASA Goddard Space Flight Center, Ocean Ecology Laboratory, Ocean Biology Proces
 
 ## 版权信息
 
-本项目使用 [MIT](LICENSE) 许可证，详情请参阅LICENSE文件。
+本项目使用 [MIT](LICENSE) 许可证，详情请参阅LICENSE文件。  
+（可随意取用，但是别搞违法的）
 
 ## 贡献
 
