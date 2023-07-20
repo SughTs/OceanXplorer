@@ -2,6 +2,11 @@
 
 欢迎来到OceanXplorer项目！这是一个用于处理和分析海洋数据（近海岸带水体叶绿素浓度分析）的Python项目。该项目使用xarray库来处理NetCDF格式的海洋数据文件，并提供了一些功能来可视化和分析这些数据。
 
+
+此分支是一个气温分布展示图测试，数据来源https://crudata.uea.ac.uk/cru/data/temperature/#datdow  
+因为数据清晰度太低，所以效果并不好
+
+
 ## 前置介绍
 
 从数学上来说，netcdf(.nc)存储的数据就是一个多自变量的单值函数。用公式来说就是f(x,y,z,...)=value，函数的自变量x,y,z等在netcdf中叫做维(dimension)或坐标轴(axis)，函数值value在netcdf中叫做变量(Variables)。而自变量和函数值在物理学上的一些性质，比如计量单位(量纲)、物理学名称等等在netcdf中就叫属性(Attributes)。
